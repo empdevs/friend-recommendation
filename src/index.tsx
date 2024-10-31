@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { initializeIcons } from '@fluentui/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './fabric.css';
+import './Fabric.css';
 
 initializeIcons();
 ReactDOM.render(

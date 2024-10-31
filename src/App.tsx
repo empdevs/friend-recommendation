@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Route, Switch, Redirect, useHistory } from 'react-router-dom';
 import './App.css';
-import { IUser } from './Types';
 import Login from './pages/Login';
 import { runInitialData } from './utils/IndexedDB';
 import Main from './pages/Main';
