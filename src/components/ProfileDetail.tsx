@@ -137,7 +137,7 @@ const ProfileDetail: React.FunctionComponent<IProfileDetail> = (props: IProfileD
                     }))
                     :
                     <Stack horizontalAlign="center" tokens={{ childrenGap: 10 }}>
-                        <img src="/public/images/nothing_recommendation.svg" style={{ width: 200 }} />
+                        <img src="/images/nothing_recommendation.svg" style={{ width: 200 }} />
                         <Text variant="large"><i>No new friend recommendations at the moment! Check back later to see new connections.</i></Text>
                     </Stack>
                 }

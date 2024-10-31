@@ -23,7 +23,7 @@ function Navbar(props: INavbar) {
                 <Stack>
                     <Text variant="xLarge" style={{ color: "#fff" }}>
                         <img
-                            src="/public/images/Logo.webp"
+                            src="/images/Logo.webp"
                             width={80}
                             height={65} />
                     </Text>

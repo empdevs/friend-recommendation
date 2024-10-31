@@ -104,6 +104,7 @@ const Main: React.FunctionComponent = (props: IMain) => {
         setNotifications(myNotifications);
         setUnreadCount(unreadCountBySender + unreadCountByRecipient);
 
+        //Show notification
         openNotification({
             message: "Information",
             description: `You have made connection with ${newFriend?.name}!`,
@@ -262,7 +263,7 @@ const Main: React.FunctionComponent = (props: IMain) => {
                                 })
                                 :
                                 <Stack horizontalAlign="center" tokens={{ childrenGap: 10 }}>
-                                    <img src="/public/images/nothing_notification.svg" style={{ width: 300 }} />
+                                    <img src="/images/nothing_notification.svg" style={{ width: 300 }} />
                                     <Text variant="large"><i>No new notifications. Take a moment to explore or connect with someone new!</i></Text>
                                 </Stack>
                             }
