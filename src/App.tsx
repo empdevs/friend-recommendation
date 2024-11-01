@@ -8,14 +8,14 @@ import Main from './pages/Main';
 function App() {
   const history = useHistory();
   function authentication() {
-    console.log(history);
+    // console.log(history);
     const hasLogin = localStorage.getItem("user");
     if (hasLogin) history.push("/Index/Landing");
     else history.push("/Login");
   }
 
   useEffect(() => {
-    console.log("App");
+    // console.log("App");
     runInitialData();
     authentication();
   }, []);

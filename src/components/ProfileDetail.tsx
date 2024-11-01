@@ -8,7 +8,7 @@ interface IProfileDetail {
     onConnectClick: (id: string) => void
 }
 const ProfileDetail: React.FunctionComponent<IProfileDetail> = (props: IProfileDetail) => {
-    console.log(props);
+    // console.log(props);
     return (
         <div className="profile-page">
             <div className="profile-details">

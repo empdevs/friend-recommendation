@@ -11,16 +11,16 @@ export const initializeDB = async () => {
     return openDB(dbName, 1, {
         upgrade(db) {
             if (!!!db.objectStoreNames.contains(userStore)) {
-                console.log("create user store")
+                // console.log("create user store")
                 db.createObjectStore(userStore, { keyPath: 'id', autoIncrement: true });
             }
 
             if (!!!db.objectStoreNames.contains(userRelationshipStore)) {
-                console.log("create relationship store")
+                // console.log("create relationship store")
                 db.createObjectStore(userRelationshipStore, { keyPath: 'id', autoIncrement: true });
             }
             if (!!!db.objectStoreNames.contains(notificationStore)) {
-                console.log("create notification store")
+                // console.log("create notification store")
                 db.createObjectStore(notificationStore, { keyPath: 'id', autoIncrement: true });
             }
 

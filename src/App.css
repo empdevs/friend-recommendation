@@ -372,7 +372,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.login-box button:hover {
   background-color: #d2671e;
 }
 
@@ -396,5 +396,21 @@ button:hover {
 
   .login-box {
     max-width: 90%;
+  }
+
+  .profile-page {
+    flex-direction: column;
+  }
+
+  .profile-details {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .connections {
+    margin-top: 20px;
+    padding-left: 0px;
   }
 }
