@@ -8,14 +8,16 @@ export const useNotification = () => {
         message,
         description,
         showProgress,
-        pauseOnHover
+        pauseOnHover,
+        notificationType
     }: {
         message?: string;
         description?: string;
         showProgress?: boolean;
         pauseOnHover?: boolean;
+        notificationType?: "success" | "info" | "warning" | "error"
     }) => {
-        api.open({
+        api[notificationType ?? "open"]({
             message,
             description,
             showProgress,
