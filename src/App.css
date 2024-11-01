@@ -362,19 +362,20 @@ input[type="password"] {
   border-radius: 5px;
 }
 
-button {
+.login-box button {
   padding: 10px;
   font-size: 1em;
   color: white;
   background-color: #f47b20;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
 .login-box button:hover {
   background-color: #d2671e;
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
