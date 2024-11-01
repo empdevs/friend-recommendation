@@ -29,3 +29,4 @@ export interface INotificationLog {
     unreadBySender: number
     unreadByRecipient: number
 }
+
